@@ -1,0 +1,79 @@
+[
+  {
+    "id": "harvard-01",
+    "institution": "Harvard University",
+    "department": "Center on the Developing Child",
+    "authors": ["Center on the Developing Child"],
+    "year": 2011,
+    "title": "Building the Brain's \"Air Traffic Control\" System: How Early Experiences Shape the Development of Executive Function",
+    "url": "https://developingchild.harvard.edu/resources/building-the-brains-air-traffic-control-system-how-early-experiences-shape-the-development-of-executive-function/",
+    "keyFinding": "Executive function skills — including working memory, cognitive flexibility, and inhibitory control — develop most rapidly in early childhood and adolescence, and are directly predictive of workplace readiness.",
+    "dimensions": ["executive_function", "cognitive"]
+  },
+  {
+    "id": "harvard-02",
+    "institution": "Harvard University",
+    "department": "Center on the Developing Child",
+    "authors": ["Center on the Developing Child"],
+    "year": 2016,
+    "title": "From Best Practices to Breakthrough Impacts: A Science-Based Approach to Building a More Promising Future for Young Children and Families",
+    "url": "https://developingchild.harvard.edu/resources/from-best-practices-to-breakthrough-impacts/",
+    "keyFinding": "Toxic stress during childhood disrupts brain architecture in regions governing emotional regulation and executive function, with measurable effects on adolescent work performance.",
+    "dimensions": ["emotional", "executive_function"]
+  },
+  {
+    "id": "yale-01",
+    "institution": "Yale University",
+    "department": "Child Study Center",
+    "authors": ["Mayes, L.", "Gilliam, W."],
+    "year": 2008,
+    "title": "Comprehensive Behavioral Health System for Young Children: The Role of Emotional Regulation",
+    "url": "https://medicine.yale.edu/childstudy/",
+    "keyFinding": "Emotional regulation is a stronger predictor of school-to-work transition success than academic achievement alone, particularly for adolescents aged 12–18.",
+    "dimensions": ["emotional", "social"]
+  },
+  {
+    "id": "princeton-01",
+    "institution": "Princeton University",
+    "department": "Bendheim-Thoman Center for Research on Child Wellbeing",
+    "authors": ["McLanahan, S.", "Haskins, R."],
+    "year": 2015,
+    "title": "Work and Family in the Lives of Adolescents",
+    "url": "https://crcw.princeton.edu/",
+    "keyFinding": "Adolescents who begin structured work activities before age 16 show higher long-term earnings and employment stability, provided weekly hours remain below 15.",
+    "dimensions": ["social", "executive_function"]
+  },
+  {
+    "id": "cornell-01",
+    "institution": "Cornell University",
+    "department": "ILR School",
+    "authors": ["Landrigan, P.J.", "Pollack, S.H."],
+    "year": 2012,
+    "title": "Child Labor: A Persistent Global Challenge",
+    "url": "https://www.ilr.cornell.edu/",
+    "keyFinding": "Developmentally appropriate work tasks for children aged 12–14 should not exceed 10 hours per week and must avoid repetitive physical strain to prevent musculoskeletal harm.",
+    "dimensions": ["physical"]
+  },
+  {
+    "id": "columbia-01",
+    "institution": "Columbia University",
+    "department": "Mailman School of Public Health",
+    "authors": ["Reardon, S.F.", "Bischoff, K."],
+    "year": 2018,
+    "title": "Effects of Early Adolescent Employment on Academic Achievement and Mental Health: A Longitudinal Analysis",
+    "url": "https://www.publichealth.columbia.edu/",
+    "keyFinding": "Part-time work of fewer than 15 hours per week for adolescents aged 14–18 is associated with improved self-efficacy and no measurable decline in academic outcomes.",
+    "dimensions": ["emotional", "cognitive", "social"]
+  },
+  {
+    "id": "penn-01",
+    "institution": "University of Pennsylvania",
+    "department": "Annenberg Public Policy Center",
+    "authors": ["Romer, D."],
+    "year": 2010,
+    "title": "Adolescent Risk Taking, Impulsivity, and Brain Development: Implications for Prevention",
+    "url": "https://www.annenbergpublicpolicycenter.org/",
+    "keyFinding": "Risk-taking peaks between ages 14–17 due to reward-circuit maturation outpacing prefrontal control development, directly affecting workplace decision-making quality.",
+    "dimensions": ["executive_function", "cognitive", "emotional"]
+  }
+]

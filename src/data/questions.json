@@ -1,0 +1,212 @@
+[
+  {
+    "id": "q001",
+    "domain": "emotional",
+    "text": "When something upsets you at school or work, what do you usually do first?",
+    "ageRange": { "min": 6, "max": 25 },
+    "source": "Yale Center for Emotional Intelligence — RULER Framework (Recognizing, Understanding, Labeling, Expressing, Regulating emotions)",
+    "url": "https://www.rulerapproach.org/",
+    "options": [
+      { "label": "I act out or shut down right away", "value": 0 },
+      { "label": "I wait, but I'm still upset for a long time", "value": 33 },
+      { "label": "I name the feeling and take a few breaths", "value": 67 },
+      { "label": "I identify the feeling, think it through, and respond calmly", "value": 100 }
+    ]
+  },
+  {
+    "id": "q002",
+    "domain": "emotional",
+    "text": "How well can you tell the difference between feeling nervous and feeling excited?",
+    "ageRange": { "min": 6, "max": 25 },
+    "source": "Yale Center for Emotional Intelligence — RULER Framework: Labeling emotions with precision improves regulation and decision-making across development.",
+    "url": "https://www.rulerapproach.org/about/the-ruler-skills/",
+    "options": [
+      { "label": "They feel the same to me — I can't tell them apart", "value": 0 },
+      { "label": "I know they're different but I mix them up often", "value": 33 },
+      { "label": "I can usually tell which one I'm feeling", "value": 67 },
+      { "label": "I can clearly name both and know what's causing each", "value": 100 }
+    ]
+  },
+  {
+    "id": "q003",
+    "domain": "emotional",
+    "text": "After a difficult day, how do you recover before the next one?",
+    "ageRange": { "min": 9, "max": 25 },
+    "source": "Harvard Center on the Developing Child — Working Paper: Supportive Relationships and Active Skill-Building Strengthen the Foundations of Resilience (2015).",
+    "url": "https://developingchild.harvard.edu/resources/supportive-relationships-and-active-skill-building-strengthen-the-foundations-of-resilience/",
+    "options": [
+      { "label": "I usually carry it into the next day", "value": 0 },
+      { "label": "I distract myself but don't really process it", "value": 33 },
+      { "label": "I talk to someone or do something that helps me reset", "value": 67 },
+      { "label": "I reflect on what happened, learn from it, and genuinely move on", "value": 100 }
+    ]
+  },
+  {
+    "id": "q004",
+    "domain": "emotional",
+    "text": "When a friend or coworker is upset, how do you usually respond?",
+    "ageRange": { "min": 6, "max": 25 },
+    "source": "Yale Center for Emotional Intelligence — RULER Framework: Empathy and social-emotional skills are cornerstones of collaborative readiness.",
+    "url": "https://www.rulerapproach.org/",
+    "options": [
+      { "label": "I don't really notice or I walk away", "value": 0 },
+      { "label": "I notice but I'm not sure what to do", "value": 33 },
+      { "label": "I acknowledge how they feel and ask if they need something", "value": 67 },
+      { "label": "I listen fully, reflect back what I hear, and offer genuine support", "value": 100 }
+    ]
+  },
+  {
+    "id": "q005",
+    "domain": "cognitive",
+    "text": "How long can you focus on one task — like reading, building, or solving a problem — without stopping?",
+    "ageRange": { "min": 6, "max": 25 },
+    "source": "Harvard Center on the Developing Child — InBrief: Executive Function and Self-Regulation. Sustained attention is a core component of developing executive function.",
+    "url": "https://developingchild.harvard.edu/resources/inbrief-executive-function/",
+    "options": [
+      { "label": "About 5 minutes or less", "value": 0 },
+      { "label": "Around 10–15 minutes", "value": 33 },
+      { "label": "30–45 minutes with a short break", "value": 67 },
+      { "label": "Over an hour, adjusting breaks as needed", "value": 100 }
+    ]
+  },
+  {
+    "id": "q006",
+    "domain": "cognitive",
+    "text": "If your plan isn't working, how do you respond?",
+    "ageRange": { "min": 6, "max": 25 },
+    "source": "Harvard Center on the Developing Child — InBrief: Executive Function and Self-Regulation. Cognitive flexibility is the ability to shift strategies in response to new information.",
+    "url": "https://developingchild.harvard.edu/resources/inbrief-executive-function/",
+    "options": [
+      { "label": "I get frustrated and usually give up", "value": 0 },
+      { "label": "I keep trying the same approach hoping it changes", "value": 33 },
+      { "label": "I try a different approach after a while", "value": 67 },
+      { "label": "I quickly assess what isn't working and deliberately try something new", "value": 100 }
+    ]
+  },
+  {
+    "id": "q007",
+    "domain": "cognitive",
+    "text": "When you're given a multi-step task, what do you do before starting?",
+    "ageRange": { "min": 9, "max": 25 },
+    "source": "Princeton Neuroscience Institute — Research on prefrontal cortex development: planning and working memory mature throughout adolescence and into the mid-20s.",
+    "url": "https://pni.princeton.edu/research",
+    "options": [
+      { "label": "I dive straight in without thinking about steps", "value": 0 },
+      { "label": "I think about it briefly but don't write anything down", "value": 33 },
+      { "label": "I make a rough list of steps before I begin", "value": 67 },
+      { "label": "I break it into ordered steps, estimate time, and check for blockers first", "value": 100 }
+    ]
+  },
+  {
+    "id": "q008",
+    "domain": "cognitive",
+    "text": "How do you handle being asked to do something new that you've never tried before?",
+    "ageRange": { "min": 6, "max": 25 },
+    "source": "Princeton Neuroscience Institute — Adolescent brain research on novelty processing and cognitive readiness for unfamiliar task demands.",
+    "url": "https://pni.princeton.edu/research",
+    "options": [
+      { "label": "I refuse or freeze — new things feel too hard", "value": 0 },
+      { "label": "I try but get overwhelmed quickly", "value": 33 },
+      { "label": "I ask questions to understand it before trying", "value": 67 },
+      { "label": "I welcome it, gather what I need to know, and give it a confident attempt", "value": 100 }
+    ]
+  },
+  {
+    "id": "q009",
+    "domain": "social",
+    "text": "When working in a group, what role do you naturally take on?",
+    "ageRange": { "min": 6, "max": 25 },
+    "source": "Columbia University Mailman School of Public Health — Research on adolescent social development and cooperative learning environments.",
+    "url": "https://www.publichealth.columbia.edu/research",
+    "options": [
+      { "label": "I usually stay quiet and let others lead", "value": 0 },
+      { "label": "I follow along and do what I'm told", "value": 33 },
+      { "label": "I contribute ideas and help keep the group on track", "value": 67 },
+      { "label": "I actively read the room, share leadership, and lift others up", "value": 100 }
+    ]
+  },
+  {
+    "id": "q010",
+    "domain": "social",
+    "text": "When you disagree with someone in authority — a teacher, supervisor, or parent — what do you do?",
+    "ageRange": { "min": 9, "max": 25 },
+    "source": "Cornell ILR School — Research on adolescent workplace communication norms and authority relationships in early employment settings.",
+    "url": "https://www.ilr.cornell.edu/research",
+    "options": [
+      { "label": "I say nothing or I argue back immediately", "value": 0 },
+      { "label": "I feel frustrated but just go along with it", "value": 33 },
+      { "label": "I wait for a calm moment and express my view respectfully", "value": 67 },
+      { "label": "I listen first, then raise my concern clearly and constructively at the right time", "value": 100 }
+    ]
+  },
+  {
+    "id": "q011",
+    "domain": "social",
+    "text": "How comfortable are you asking for help when you're stuck on something?",
+    "ageRange": { "min": 6, "max": 25 },
+    "source": "Yale Center for Emotional Intelligence — RULER Framework: Help-seeking is linked to emotional awareness and trust in social relationships.",
+    "url": "https://www.rulerapproach.org/",
+    "options": [
+      { "label": "I'd rather struggle alone than ask for help", "value": 0 },
+      { "label": "I ask only as a last resort and feel embarrassed doing it", "value": 33 },
+      { "label": "I'm mostly comfortable asking trusted people for help", "value": 67 },
+      { "label": "I ask for help early, choose the right person, and learn from the interaction", "value": 100 }
+    ]
+  },
+  {
+    "id": "q012",
+    "domain": "social",
+    "text": "How do you handle it when plans change unexpectedly and you have to adjust with others?",
+    "ageRange": { "min": 6, "max": 25 },
+    "source": "Princeton Neuroscience Institute — Social cognition research on flexibility and interpersonal adaptation across adolescent development.",
+    "url": "https://pni.princeton.edu/research",
+    "options": [
+      { "label": "I get upset and find it hard to move on", "value": 0 },
+      { "label": "I go along with it but I'm annoyed", "value": 33 },
+      { "label": "I adjust without much trouble", "value": 67 },
+      { "label": "I help others adapt too and look for the opportunity in the change", "value": 100 }
+    ]
+  },
+  {
+    "id": "q013",
+    "domain": "physical",
+    "text": "How well do you manage your energy throughout a full day of activity or work?",
+    "ageRange": { "min": 6, "max": 25 },
+    "source": "Cornell ILR School — Occupational health research on physical endurance benchmarks and safe workload thresholds for adolescent workers.",
+    "url": "https://www.ilr.cornell.edu/research",
+    "options": [
+      { "label": "I feel drained after just an hour or two", "value": 0 },
+      { "label": "I manage but need several long rests to get through the day", "value": 33 },
+      { "label": "I stay steady most of the day with normal breaks", "value": 67 },
+      { "label": "I manage my energy proactively — I pace myself and finish strong", "value": 100 }
+    ]
+  },
+  {
+    "id": "q014",
+    "domain": "physical",
+    "text": "How do you respond to physically uncomfortable conditions — like standing for a long time, working in heat, or doing repetitive tasks?",
+    "ageRange": { "min": 9, "max": 25 },
+    "source": "Cornell ILR School — ILR School research on musculoskeletal risk and age-appropriate physical work demands for adolescents and young adults.",
+    "url": "https://www.ilr.cornell.edu/worker-institute",
+    "options": [
+      { "label": "I can't handle it — I need to stop right away", "value": 0 },
+      { "label": "I push through but complain or lose focus", "value": 33 },
+      { "label": "I manage it without it affecting my performance much", "value": 67 },
+      { "label": "I adapt my technique or posture and stay effective throughout", "value": 100 }
+    ]
+  },
+  {
+    "id": "q015",
+    "domain": "physical",
+    "text": "How well do you take care of your body to support your daily activities — sleep, food, exercise?",
+    "ageRange": { "min": 6, "max": 25 },
+    "source": "Harvard Center on the Developing Child — Working Paper: Early Childhood Program Effectiveness. Physical self-regulation and health habits are foundational to work readiness.",
+    "url": "https://developingchild.harvard.edu/resources/three-early-childhood-program-models-lessons-from-longitudinal-research/",
+    "options": [
+      { "label": "I don't really think about it — I eat and sleep whenever", "value": 0 },
+      { "label": "I know it matters but my habits are inconsistent", "value": 33 },
+      { "label": "I usually sleep enough and eat reasonably well", "value": 67 },
+      { "label": "I actively manage sleep, nutrition, and movement as part of my routine", "value": 100 }
+    ]
+  }
+]

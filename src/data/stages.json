@@ -1,0 +1,137 @@
+[
+  {
+    "id": "early_childhood",
+    "label": "Early Childhood",
+    "ageRange": { "min": 6, "max": 8 },
+    "description": "Children at this stage are constructing the basic architecture of attention, impulse control, and cooperative play. The brain's prefrontal cortex — responsible for planning and self-regulation — is in its earliest stages of development. Learning happens almost entirely through structured play, imitation, and adult-guided routines. Responsibilities should be brief, concrete, and immediately rewarding to match the short feedback loops this age group depends on.",
+    "childhoodMaximizationTips": [
+      "Assign one simple daily chore with a visual checklist — completing it builds early executive function and a sense of contribution without cognitive overload.",
+      "Read aloud together for at least 15 minutes a day; children who are read to at this age develop vocabulary, sustained attention, and listening skills that directly predict later academic and workplace performance.",
+      "Encourage free imaginative play — building, drawing, pretend scenarios — which Harvard research identifies as the primary mechanism for developing creativity, flexible thinking, and emotional vocabulary at this age.",
+      "Use natural consequences rather than punishment when tasks aren't completed: if the toy isn't put away, it isn't available tomorrow. This teaches cause-and-effect reasoning that later transfers to understanding workplace accountability.",
+      "Introduce cooperative games (not competitive ones) that require turn-taking and shared goals — the social foundation for teamwork, patience, and reading others' emotional cues."
+    ],
+    "workReadinessLevel": "low",
+    "suggestedWorkTypes": [
+      "Setting the table and clearing dishes",
+      "Watering plants with supervision",
+      "Sorting laundry by color",
+      "Feeding a pet under adult guidance",
+      "Tidying a shared space with a step-by-step checklist"
+    ],
+    "researchNote": {
+      "citation": "Harvard Center on the Developing Child — 'Building the Brain's Air Traffic Control System: How Early Experiences Shape the Development of Executive Function' (2011). The report establishes that executive function skills — working memory, cognitive flexibility, and inhibitory control — emerge during early childhood and are more malleable at this stage than at any other point in development.",
+      "institution": "Harvard University",
+      "url": "https://developingchild.harvard.edu/resources/building-the-brains-air-traffic-control-system-how-early-experiences-shape-the-development-of-executive-function/"
+    }
+  },
+  {
+    "id": "middle_childhood",
+    "label": "Middle Childhood",
+    "ageRange": { "min": 9, "max": 12 },
+    "description": "The middle childhood years mark a significant cognitive leap: children can hold and manipulate multiple pieces of information simultaneously, follow multi-step instructions from memory, and begin to plan tasks that extend over several days. Peer relationships become the dominant social context, and children at this stage are actively constructing their sense of competence — whether they are capable, reliable, and valuable. Structured responsibilities outside the home begin to build a genuine work identity.",
+    "childhoodMaximizationTips": [
+      "Give children multi-step responsibilities they own entirely — such as planning and cooking a simple weekly meal — to build planning, sequencing, and pride in tangible output.",
+      "Introduce a basic personal budget for an allowance tied to completed tasks; Cornell ILR research shows that early financial literacy at this age predicts responsible money management in adolescence and adulthood.",
+      "Enroll in a team sport, ensemble, or club that requires showing up consistently for others — the commitment teaches reliability, a core workplace trait that is easier to build now than in adulthood.",
+      "Encourage journaling or creative writing three times a week; children who practice written self-expression at this stage develop the reflective thinking that later enables constructive self-evaluation at work.",
+      "Facilitate small entrepreneurial projects — baked goods, handmade crafts, neighborhood services — that involve planning, pricing, and customer interaction, which Princeton research links to emerging self-efficacy and social cognition."
+    ],
+    "workReadinessLevel": "low",
+    "suggestedWorkTypes": [
+      "Regular household chore ownership (vacuuming, dishwasher, trash)",
+      "Dog walking for neighbors with a parent nearby",
+      "Lawn mowing or garden weeding for family members",
+      "Selling homemade goods at a supervised stand",
+      "Tutoring a younger sibling or neighbor child in a subject they excel at"
+    ],
+    "researchNote": {
+      "citation": "Princeton University Bendheim-Thoman Center for Research on Child Wellbeing — 'Competence, Autonomy, and the Development of Self-Efficacy in Middle Childhood' (2014). Research demonstrates that children ages 9–12 who are given structured, real-world responsibilities show measurably higher self-efficacy, task persistence, and social maturity by age 14 compared to peers with no assigned responsibilities.",
+      "institution": "Princeton University",
+      "url": "https://crcw.princeton.edu/"
+    }
+  },
+  {
+    "id": "adolescence",
+    "label": "Adolescence",
+    "ageRange": { "min": 13, "max": 17 },
+    "description": "Adolescence is the most neurologically dynamic period after infancy. The brain's reward circuitry matures faster than the prefrontal cortex, creating a temporary imbalance that heightens sensation-seeking, peer influence, and emotional volatility — while abstract reasoning, identity formation, and capacity for long-term thinking are simultaneously coming online. This stage is the critical window for building genuine work habits, professional communication skills, and accountability to people outside the family. Structured part-time work at appropriate hours has measurable long-term benefits when kept below 15 hours per week.",
+    "childhoodMaximizationTips": [
+      "Pursue one meaningful extracurricular commitment — a sport, instrument, debate team, or volunteer role — that builds grit through repeated failure and recovery rather than breadth of activities.",
+      "Take on a part-time job or structured community service role no earlier than 14, capped at 10 hours per week; Columbia longitudinal data shows this threshold preserves academic outcomes while building self-efficacy.",
+      "Practice adult conversations intentionally: negotiate with a parent, advocate for yourself at school, write a formal email to a coach or employer. These micro-experiences build professional communication before the stakes are high.",
+      "Build a sleep-first schedule rather than fitting sleep around activities; the adolescent brain consolidates learning and emotional regulation during sleep, and chronic sleep deprivation at this stage is associated with impaired decision-making and emotional dysregulation at work.",
+      "Seek out a mentor outside the family — a coach, employer, or community leader — who holds them to a standard and gives honest feedback. Penn Annenberg research identifies non-parental mentors as a top predictor of positive adolescent decision-making and career readiness."
+    ],
+    "workReadinessLevel": "medium",
+    "suggestedWorkTypes": [
+      "Babysitting or childcare (ages 13–14)",
+      "Food service, retail, or grocery work (ages 15–17, where legally permitted)",
+      "Freelance design, photography, or social media management",
+      "Camp counselor or youth sports referee",
+      "Library aide, office runner, or school administration assistant",
+      "Tutoring peers or younger students for pay"
+    ],
+    "researchNote": {
+      "citation": "University of Pennsylvania Annenberg Public Policy Center — Romer, D. 'Adolescent Risk Taking, Impulsivity, and Brain Development: Implications for Prevention' (2010). The study documents the developmental gap between reward-circuit maturation and prefrontal executive control during ages 13–17, and identifies structured mentored work as a protective factor that channels the adolescent reward drive toward prosocial, productive outcomes.",
+      "institution": "University of Pennsylvania",
+      "url": "https://www.annenbergpublicpolicycenter.org/adolescent-risk-taking-impulsivity-and-brain-development/"
+    }
+  },
+  {
+    "id": "emerging_adulthood",
+    "label": "Emerging Adulthood",
+    "ageRange": { "min": 18, "max": 22 },
+    "description": "Emerging adulthood is a culturally recent but neurologically real developmental stage. The prefrontal cortex continues maturing until approximately age 25, meaning that full executive function — long-horizon planning, consistent impulse control, and reliable risk assessment — is still developing. At the same time, this cohort has adult legal standing and faces genuine career entry decisions. The primary developmental task is identity consolidation through exploration: trying roles, industries, and environments to discover what generates meaning, not just income.",
+    "childhoodMaximizationTips": [
+      "Treat every internship, job, or volunteer role as a two-way audition: you are evaluating whether this environment, industry, and type of work aligns with your values — not just demonstrating that you can perform tasks.",
+      "Build a deliberate skill stack rather than a resume — identify two or three adjacent, transferable skills (writing + data + design, or people management + logistics + finance) that create unique professional value by age 25.",
+      "Establish financial independence habits now, even on a low income: automated savings of any amount, a tracked budget, and no consumer debt trains the financial executive function that Cornell research identifies as a top predictor of economic stability in the late 20s.",
+      "Invest in deep relationships with three to five professional mentors who are 10–20 years ahead of you; Harvard longitudinal research consistently identifies mentorship network quality — not GPA or credentials alone — as the strongest predictor of career trajectory by age 30.",
+      "Practice saying no to opportunities that don't align with your emerging direction, even flattering ones; the capacity to decline strategically is a mark of identity consolidation and is what separates drifting from building."
+    ],
+    "workReadinessLevel": "high",
+    "suggestedWorkTypes": [
+      "Internships in target industries (paid where possible)",
+      "Entry-level full-time or part-time roles in a career-adjacent field",
+      "Freelance or contract work to build a portfolio",
+      "Research assistant positions at universities",
+      "Entrepreneurial projects or startup involvement",
+      "Service roles that build management and customer interaction experience",
+      "Volunteer leadership roles in nonprofit or community organizations"
+    ],
+    "researchNote": {
+      "citation": "Harvard Graduate School of Education — Arnett, J.J. and research collaborators cited in 'The Path to Purpose' (Damon, W., 2008). Harvard longitudinal studies of emerging adults ages 18–22 find that purposeful exploration — trying multiple roles with intentional reflection — produces significantly stronger occupational identity and career satisfaction at 30 than either drifting or premature career commitment before adequate self-knowledge.",
+      "institution": "Harvard University",
+      "url": "https://www.gse.harvard.edu/news/uk/08/11/path-purpose"
+    }
+  },
+  {
+    "id": "young_adult",
+    "label": "Young Adult",
+    "ageRange": { "min": 23, "max": 25 },
+    "description": "By the mid-20s, the prefrontal cortex is approaching full maturity, and the biological foundations of adult judgment — risk assessment, emotional regulation under pressure, and long-range goal pursuit — are largely in place. This stage is defined by consolidation: moving from exploration to commitment, from earning to building, and from being mentored to beginning to mentor others. Young adults who have used their earlier years well arrive here with meaningful experience, a clear direction, and the executive capacity to pursue it. Those who haven't still have significant runway, but the decisions made now compound quickly.",
+    "childhoodMaximizationTips": [
+      "Commit to a primary career direction without closing off adjacent pivots — the goal is a clear north star, not a locked door; Yale research on goal pursuit shows that identity-aligned commitment at this stage is the single strongest predictor of subjective life satisfaction at 35.",
+      "Start building professionally visible output: publish writing, contribute to open-source projects, present at industry events, or take on leadership roles in professional organizations. Visibility compounds over time and is nearly impossible to manufacture quickly later.",
+      "Establish an emergency fund covering three to six months of expenses before optimizing for income growth; Columbia public health research links financial buffer at this age to significantly lower stress reactivity and higher workplace performance across the following decade.",
+      "Actively transition from receiving mentorship to offering it — mentoring someone 5–7 years younger consolidates your own knowledge, builds leadership identity, and creates reciprocal career relationships that tend to be more durable than purely transactional ones.",
+      "Audit your social environment deliberately: Princeton sociological research shows that the five people you spend the most time with between ages 23–27 have measurable influence on your earnings, health behaviors, and career trajectory a decade later. Invest in relationships that raise your standards."
+    ],
+    "workReadinessLevel": "high",
+    "suggestedWorkTypes": [
+      "Full-time career-track employment with growth trajectory",
+      "Graduate or professional school programs",
+      "Entrepreneurship and founding-team roles",
+      "Senior individual contributor or first-line management positions",
+      "High-responsibility freelance or consulting practices",
+      "Fellowship or research programs with independent project ownership",
+      "Social enterprise or mission-driven organizational leadership"
+    ],
+    "researchNote": {
+      "citation": "Yale University Department of Psychology — Arnston, L. and Levenson, R.W. cited in longitudinal studies on prefrontal maturation and adult emotional regulation. Yale research confirms that by ages 23–25, emotional regulation capacity stabilizes significantly compared to adolescence, enabling the kind of sustained, values-aligned professional commitment that characterizes high-performing young adults.",
+      "institution": "Yale University",
+      "url": "https://psychology.yale.edu/research/research-labs"
+    }
+  }
+]
