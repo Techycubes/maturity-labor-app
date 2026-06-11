@@ -71,6 +71,38 @@ export function calculateMaturityScore(age, responses) {
 }
 
 /**
+ * Computes an average 0–100 score for each of the four domains, used to
+ * render the domain-breakdown bar chart on the Results view. Domains with
+ * no answers default to 0 so all four always appear on the chart.
+ *
+ * @param {Array<{domain: string, value: number}>} responses
+ * @returns {{emotional: number, cognitive: number, social: number, physical: number}}
+ */
+export function calculateDomainScores(responses) {
+  const totals = {};
+  const counts = {};
+
+  if (Array.isArray(responses)) {
+    responses.forEach(({ domain, value }) => {
+      if (!(domain in DOMAIN_WEIGHTS)) return;
+      const v = Number(value);
+      if (!Number.isFinite(v)) return;
+      totals[domain] = (totals[domain] ?? 0) + clamp(v, 0, 100);
+      counts[domain] = (counts[domain] ?? 0) + 1;
+    });
+  }
+
+  const result = {};
+  Object.keys(DOMAIN_WEIGHTS).forEach((domain) => {
+    result[domain] = counts[domain]
+      ? Math.round(totals[domain] / counts[domain])
+      : 0;
+  });
+
+  return result;
+}
+
+/**
  * Resolves the developmental stage for an age and assembles the
  * recommendation payload for the Results view.
  *
