@@ -1,4 +1,8 @@
-import { calculateMaturityScore, getStageAndRecommendations } from "../src/lib/scoring.js";
+import {
+  calculateMaturityScore,
+  calculateDomainScores,
+  getStageAndRecommendations,
+} from "../src/lib/scoring.js";
 
 const VALID_DOMAINS = new Set(["emotional", "cognitive", "social", "physical"]);
 
@@ -78,7 +82,8 @@ export default function handler(req, res) {
   try {
     const score = calculateMaturityScore(parsedAge, responses);
     const report = getStageAndRecommendations(score, parsedAge);
-    return res.status(200).json({ age: parsedAge, ...report });
+    const domainScores = calculateDomainScores(responses);
+    return res.status(200).json({ age: parsedAge, domainScores, ...report });
   } catch (err) {
     if (err instanceof RangeError) {
       return jsonError(res, 400, "OUT_OF_RANGE", err.message);

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import allQuestions from '../data/questions.json'
 
@@ -13,10 +13,20 @@ function Quiz({ age, handleSubmit }) {
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [responses, setResponses] = useState([])
 
+  // Locks out double-clicks and clicks landing during the exit animation,
+  // which would otherwise record a duplicate response or double-submit.
+  const answerLock = useRef(false)
+  useEffect(() => {
+    answerLock.current = false
+  }, [currentQuestion])
+
   const question = questions[currentQuestion]
   const progress = (currentQuestion / questions.length) * 100
 
   const onAnswer = (value) => {
+    if (answerLock.current) return
+    answerLock.current = true
+
     const next = [
       ...responses,
       { id: question.id, domain: question.domain, value },

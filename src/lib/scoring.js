@@ -71,6 +71,88 @@ export function calculateMaturityScore(age, responses) {
 }
 
 /**
+ * Computes an average 0–100 score for each of the four domains, used to
+ * render the domain-breakdown bar chart on the Results view. Domains with
+ * no answers default to 0 so all four always appear on the chart.
+ *
+ * @param {Array<{domain: string, value: number}>} responses
+ * @returns {{emotional: number, cognitive: number, social: number, physical: number}}
+ */
+export function calculateDomainScores(responses) {
+  const totals = {};
+  const counts = {};
+
+  if (Array.isArray(responses)) {
+    responses.forEach(({ domain, value }) => {
+      if (!(domain in DOMAIN_WEIGHTS)) return;
+      const v = Number(value);
+      if (!Number.isFinite(v)) return;
+      totals[domain] = (totals[domain] ?? 0) + clamp(v, 0, 100);
+      counts[domain] = (counts[domain] ?? 0) + 1;
+    });
+  }
+
+  const result = {};
+  Object.keys(DOMAIN_WEIGHTS).forEach((domain) => {
+    result[domain] = counts[domain]
+      ? Math.round(totals[domain] / counts[domain])
+      : 0;
+  });
+
+  return result;
+}
+
+/**
+ * Translates a score into an age-aware interpretation shown on the Results
+ * view, so the same number reads differently for a child than for an adult.
+ *
+ * @param {number} score - 0–100 maturity score
+ * @param {number} age - Respondent age (6–25)
+ * @returns {{band: string, message: string}}
+ */
+export function getScoreInterpretation(score, age) {
+  const isChild = age <= 12;
+  const isTeen = age >= 13 && age <= 17;
+
+  if (score >= 80) {
+    return {
+      band: "advanced",
+      message: isChild
+        ? `For a ${age}-year-old, these answers show maturity well ahead of typical developmental expectations. Keep nurturing it — and protect plenty of time for unstructured play.`
+        : isTeen
+          ? `At ${age}, you're showing maturity ahead of most of your peers. You're likely ready for more responsibility than your age alone suggests.`
+          : `At ${age}, your self-regulation and readiness signals are strong across the board. You're well positioned for high-responsibility work.`,
+    };
+  }
+  if (score >= 60) {
+    return {
+      band: "on-track",
+      message: isChild
+        ? `These answers are right where research expects a ${age}-year-old to be. Development is on track — the tips below are how to keep it that way.`
+        : isTeen
+          ? `At ${age}, you're developing on schedule. The areas in the chart below show where a little focused effort will pay off most.`
+          : `At ${age}, you're broadly on track. Look at your lowest domain below — that's the highest-leverage place to invest.`,
+    };
+  }
+  if (score >= 40) {
+    return {
+      band: "developing",
+      message: isChild
+        ? `A ${age}-year-old is still building these skills, and that's completely normal. The tips below are the best-researched ways to support that growth.`
+        : isTeen
+          ? `At ${age}, some of these skills are still under construction — which is exactly what brain research predicts. The chart below shows where to focus first.`
+          : `At ${age}, a few foundational skills could use deliberate attention before taking on high-stakes responsibilities. Start with your lowest domain below.`,
+    };
+  }
+  return {
+    band: "emerging",
+    message: isChild
+      ? `These skills are just beginning to emerge, which is expected at ${age}. Supportive structure from adults matters more than anything else right now.`
+      : `These answers suggest the foundations are still forming. That's workable at ${age} — the tips below are ordered by impact, so start at the top.`,
+  };
+}
+
+/**
  * Resolves the developmental stage for an age and assembles the
  * recommendation payload for the Results view.
  *
