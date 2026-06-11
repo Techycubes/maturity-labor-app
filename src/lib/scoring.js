@@ -103,6 +103,7 @@ export function calculateDomainScores(responses) {
 }
 
 /**
+<<<<<<< HEAD
  * Translates a score into an age-aware interpretation shown on the Results
  * view, so the same number reads differently for a child than for an adult.
  *
@@ -153,6 +154,8 @@ export function getScoreInterpretation(score, age) {
 }
 
 /**
+=======
+>>>>>>> ef163329e9d9168b9ab62c8a5e5f307988d799fe
  * Resolves the developmental stage for an age and assembles the
  * recommendation payload for the Results view.
  *

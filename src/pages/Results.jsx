@@ -14,7 +14,10 @@ import {
   ResponsiveContainer,
 } from 'recharts'
 import resources from '../data/resources.json'
+<<<<<<< HEAD
 import { getScoreInterpretation } from '../lib/scoring.js'
+=======
+>>>>>>> ef163329e9d9168b9ab62c8a5e5f307988d799fe
 
 const READINESS = {
   high: { label: 'High', cls: 'bg-[#8fae5e]/15 text-[#b6d086] border-[#8fae5e]/40' },
@@ -80,7 +83,10 @@ function Results({
   handleRestart,
 }) {
   const readiness = READINESS[workReadinessLevel] ?? READINESS.medium
+<<<<<<< HEAD
   const interpretation = getScoreInterpretation(score, age)
+=======
+>>>>>>> ef163329e9d9168b9ab62c8a5e5f307988d799fe
 
   const gaugeData = [{ name: 'score', value: score }]
 
@@ -146,6 +152,7 @@ function Results({
         >
           Work readiness: {readiness.label}
         </span>
+<<<<<<< HEAD
 
         <p className="mt-6 max-w-xl text-base leading-relaxed text-[#e8c07a]">
           {interpretation.message}
@@ -157,6 +164,15 @@ function Results({
         {stage.description}
       </motion.p>
 
+=======
+      </motion.div>
+
+      {/* Stage description */}
+      <motion.p variants={item} className="mt-8 leading-relaxed text-stone-300">
+        {stage.description}
+      </motion.p>
+
+>>>>>>> ef163329e9d9168b9ab62c8a5e5f307988d799fe
       {/* Domain breakdown chart */}
       <motion.section variants={item} className="mt-12">
         <h2 className="text-xl font-bold text-[#e3b06a]">Domain Breakdown</h2>
@@ -189,9 +205,13 @@ function Results({
 
       {/* Maximize Your Childhood */}
       <motion.section variants={item} className="mt-12">
+<<<<<<< HEAD
         <h2 className="text-xl font-bold text-[#e3b06a]">
           {age >= 18 ? 'Maximize This Stage' : 'Maximize Your Childhood'}
         </h2>
+=======
+        <h2 className="text-xl font-bold text-[#e3b06a]">Maximize Your Childhood</h2>
+>>>>>>> ef163329e9d9168b9ab62c8a5e5f307988d799fe
         <div className="mt-4 grid gap-3">
           {tips.map((tip, i) => (
             <div
