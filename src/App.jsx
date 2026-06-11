@@ -27,7 +27,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-[#0f0f1a] text-white font-sans">
+    <div className="min-h-screen bg-[#14150f] text-white font-sans">
       {view === 'home' && <Home handleStart={handleStart} />}
       {view === 'quiz' && <Quiz age={age} handleSubmit={handleSubmit} />}
       {view === 'results' && (

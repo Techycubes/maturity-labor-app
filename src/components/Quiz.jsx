@@ -33,15 +33,15 @@ function Quiz({ age, handleSubmit }) {
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-2xl flex-col px-6 py-10">
       {/* Progress bar */}
-      <div className="mb-2 flex items-center justify-between text-sm text-gray-400">
+      <div className="mb-2 flex items-center justify-between text-sm text-stone-400">
         <span>
           Question {currentQuestion + 1} of {questions.length}
         </span>
         <span className="capitalize">{question.domain.replace('_', ' ')}</span>
       </div>
-      <div className="h-2 w-full overflow-hidden rounded-full bg-[#1a1a2e]">
+      <div className="h-2 w-full overflow-hidden rounded-full bg-[#1e2016]">
         <motion.div
-          className="h-full rounded-full bg-gradient-to-r from-purple-500 to-blue-500"
+          className="h-full rounded-full bg-gradient-to-r from-[#d9885a] to-[#9cb46a]"
           initial={false}
           animate={{ width: `${progress}%` }}
           transition={{ type: 'spring', stiffness: 200, damping: 30 }}
@@ -68,7 +68,7 @@ function Quiz({ age, handleSubmit }) {
                   key={option.value}
                   type="button"
                   onClick={() => onAnswer(option.value)}
-                  className="group rounded-xl border border-gray-700 bg-[#1a1a2e] px-5 py-4 text-left text-base text-gray-200 transition hover:border-purple-500 hover:bg-purple-500/10 focus:outline-none focus:ring-2 focus:ring-purple-500/60 active:bg-purple-500/20"
+                  className="group rounded-xl border border-stone-700 bg-[#1e2016] px-5 py-4 text-left text-base text-stone-200 transition hover:border-[#d9a05b] hover:bg-[#d9a05b]/10 focus:outline-none focus:ring-2 focus:ring-[#d9a05b]/60 active:bg-[#d9a05b]/20"
                 >
                   <span className="transition group-hover:text-white">
                     {option.label}
@@ -77,7 +77,7 @@ function Quiz({ age, handleSubmit }) {
               ))}
             </div>
 
-            <p className="mt-8 text-xs leading-relaxed text-gray-500">
+            <p className="mt-8 text-xs leading-relaxed text-stone-500">
               Source: {question.source}
             </p>
           </motion.div>
